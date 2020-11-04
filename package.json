@@ -15,7 +15,7 @@
   "typings": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc --outDir dist/",
-    "prepack": "npm run build"
+    "prepare": "npm run build"
   },
   "dependencies": {
     "axios": "^0.19.2"
