@@ -107,7 +107,7 @@ ___
 
 ▸ **databaseProjectInstanceCreate**(`projectId`: string, `locationId`: string, `databaseProjectInstanceCreate`: [DatabaseProjectInstanceCreate](../interfaces/_api_.databaseprojectinstancecreate.md), `xIdempotencyKey?`: string, `options?`: any): Promise\<AxiosResponse\<[Database](../interfaces/_api_.database.md)>>
 
-*Defined in api.ts:20093*
+*Defined in api.ts:20087*
 
 Create instance
 
@@ -135,7 +135,7 @@ ___
 
 ▸ **databaseProjectInstanceCredentialCreate**(`projectId`: string, `locationId`: string, `instanceId`: string, `databaseCredential`: [DatabaseCredential](../interfaces/_api_.databasecredential.md), `options?`: any): Promise\<AxiosResponse\<[DatabaseCredential](../interfaces/_api_.databasecredential.md)>>
 
-*Defined in api.ts:20108*
+*Defined in api.ts:20102*
 
 Create database/instance.credential
 
@@ -163,7 +163,7 @@ ___
 
 ▸ **databaseProjectInstanceCredentialDelete**(`projectId`: string, `locationId`: string, `instanceId`: string, `credentialId`: string, `options?`: any): Promise\<AxiosResponse\<[Database](../interfaces/_api_.database.md)>>
 
-*Defined in api.ts:20123*
+*Defined in api.ts:20117*
 
 Delete database/instance.credential
 
@@ -191,7 +191,7 @@ ___
 
 ▸ **databaseProjectInstanceCredentialGet**(`projectId`: string, `locationId`: string, `instanceId`: string, `credentialId`: string, `options?`: any): Promise\<AxiosResponse\<[DatabaseCredential](../interfaces/_api_.databasecredential.md)>>
 
-*Defined in api.ts:20138*
+*Defined in api.ts:20132*
 
 Get database/instance.credential
 
@@ -219,7 +219,7 @@ ___
 
 ▸ **databaseProjectInstanceCredentialList**(`projectId`: string, `locationId`: string, `instanceId`: string, `options?`: any): Promise\<AxiosResponse\<[DatabaseCredential](../interfaces/_api_.databasecredential.md)[]>>
 
-*Defined in api.ts:20152*
+*Defined in api.ts:20146*
 
 List database/instance.credential
 
@@ -246,7 +246,7 @@ ___
 
 ▸ **databaseProjectInstanceCredentialPatch**(`projectId`: string, `locationId`: string, `instanceId`: string, `credentialId`: string, `databaseProjectInstanceCredentialPatch`: [DatabaseProjectInstanceCredentialPatch](../interfaces/_api_.databaseprojectinstancecredentialpatch.md), `options?`: any): Promise\<AxiosResponse\<[DatabaseCredential](../interfaces/_api_.databasecredential.md)>>
 
-*Defined in api.ts:20168*
+*Defined in api.ts:20162*
 
 Update database/instance.credential
 
@@ -275,7 +275,7 @@ ___
 
 ▸ **databaseProjectInstanceDelete**(`projectId`: string, `locationId`: string, `instanceId`: string, `options?`: any): Promise\<AxiosResponse\<void>>
 
-*Defined in api.ts:20182*
+*Defined in api.ts:20176*
 
 Delete instance
 
@@ -302,7 +302,7 @@ ___
 
 ▸ **databaseProjectInstanceEventGet**(`projectId`: string, `locationId`: string, `instanceId`: string, `eventId`: string, `options?`: any): Promise\<AxiosResponse\<[Event](../interfaces/_api_.event.md)>>
 
-*Defined in api.ts:20197*
+*Defined in api.ts:20191*
 
 Get database/instance.event
 
@@ -330,7 +330,7 @@ ___
 
 ▸ **databaseProjectInstanceEventList**(`projectId`: string, `locationId`: string, `instanceId`: string, `$limit?`: number, `$skip?`: number, `options?`: any): Promise\<AxiosResponse\<[Event](../interfaces/_api_.event.md)[]>>
 
-*Defined in api.ts:20213*
+*Defined in api.ts:20207*
 
 List database/instance.event
 
@@ -359,7 +359,7 @@ ___
 
 ▸ **databaseProjectInstanceGet**(`projectId`: string, `locationId`: string, `instanceId`: string, `options?`: any): Promise\<AxiosResponse\<[Database](../interfaces/_api_.database.md)>>
 
-*Defined in api.ts:20227*
+*Defined in api.ts:20221*
 
 Returns a single instance
 
@@ -386,7 +386,7 @@ ___
 
 ▸ **databaseProjectInstanceList**(`projectId`: string, `locationId`: string, `name?`: string, `tagValue?`: string, `tagKey?`: string, `options?`: any): Promise\<AxiosResponse\<[Database](../interfaces/_api_.database.md)[]>>
 
-*Defined in api.ts:20243*
+*Defined in api.ts:20237*
 
 List instance
 
@@ -415,7 +415,7 @@ ___
 
 ▸ **databaseProjectInstanceServiceGet**(`projectId`: string, `locationId`: string, `instanceId`: string, `serviceId`: string, `options?`: any): Promise\<AxiosResponse\<[ResourceService](../interfaces/_api_.resourceservice.md)>>
 
-*Defined in api.ts:20258*
+*Defined in api.ts:20252*
 
 Get database/instance.service
 
@@ -443,7 +443,7 @@ ___
 
 ▸ **databaseProjectInstanceServiceList**(`projectId`: string, `locationId`: string, `instanceId`: string, `options?`: any): Promise\<AxiosResponse\<[ResourceService](../interfaces/_api_.resourceservice.md)[]>>
 
-*Defined in api.ts:20272*
+*Defined in api.ts:20266*
 
 List database/instance.service
 
@@ -470,7 +470,7 @@ ___
 
 ▸ **databaseProjectInstanceStart**(`projectId`: string, `locationId`: string, `instanceId`: string, `xIdempotencyKey?`: string, `options?`: any): Promise\<AxiosResponse\<[Database](../interfaces/_api_.database.md)>>
 
-*Defined in api.ts:20287*
+*Defined in api.ts:20281*
 
 action start
 
@@ -498,7 +498,7 @@ ___
 
 ▸ **databaseProjectInstanceStop**(`projectId`: string, `locationId`: string, `instanceId`: string, `xIdempotencyKey?`: string, `options?`: any): Promise\<AxiosResponse\<[Database](../interfaces/_api_.database.md)>>
 
-*Defined in api.ts:20302*
+*Defined in api.ts:20296*
 
 action stop
 
@@ -526,7 +526,7 @@ ___
 
 ▸ **databaseProjectInstanceTagCreate**(`projectId`: string, `locationId`: string, `instanceId`: string, `tag`: [Tag](../interfaces/_api_.tag.md), `options?`: any): Promise\<AxiosResponse\<[Tag](../interfaces/_api_.tag.md)>>
 
-*Defined in api.ts:20317*
+*Defined in api.ts:20311*
 
 Create database/instance.tag
 
@@ -554,7 +554,7 @@ ___
 
 ▸ **databaseProjectInstanceTagDelete**(`projectId`: string, `locationId`: string, `instanceId`: string, `tagId`: string, `options?`: any): Promise\<AxiosResponse\<void>>
 
-*Defined in api.ts:20332*
+*Defined in api.ts:20326*
 
 Delete database/instance.tag
 
@@ -582,7 +582,7 @@ ___
 
 ▸ **databaseProjectInstanceTagGet**(`projectId`: string, `locationId`: string, `instanceId`: string, `tagId`: string, `options?`: any): Promise\<AxiosResponse\<[Tag](../interfaces/_api_.tag.md)>>
 
-*Defined in api.ts:20347*
+*Defined in api.ts:20341*
 
 Get database/instance.tag
 
@@ -610,7 +610,7 @@ ___
 
 ▸ **databaseProjectInstanceTagList**(`projectId`: string, `locationId`: string, `instanceId`: string, `options?`: any): Promise\<AxiosResponse\<[Tag](../interfaces/_api_.tag.md)[]>>
 
-*Defined in api.ts:20361*
+*Defined in api.ts:20355*
 
 List database/instance.tag
 
@@ -637,7 +637,7 @@ ___
 
 ▸ **databaseProjectInstanceTagPut**(`projectId`: string, `locationId`: string, `instanceId`: string, `tag`: Array\<[Tag](../interfaces/_api_.tag.md)>, `options?`: any): Promise\<AxiosResponse\<[Tag](../interfaces/_api_.tag.md)[]>>
 
-*Defined in api.ts:20376*
+*Defined in api.ts:20370*
 
 Replace database/instance.tag
 
@@ -665,7 +665,7 @@ ___
 
 ▸ **databaseProjectInstanceTransfer**(`projectId`: string, `locationId`: string, `instanceId`: string, `databaseProjectInstanceTransfer`: [DatabaseProjectInstanceTransfer](../interfaces/_api_.databaseprojectinstancetransfer.md), `xIdempotencyKey?`: string, `options?`: any): Promise\<AxiosResponse\<[Database](../interfaces/_api_.database.md)>>
 
-*Defined in api.ts:20392*
+*Defined in api.ts:20386*
 
 action transfer
 
@@ -694,7 +694,7 @@ ___
 
 ▸ **databaseProjectInstanceUpdate**(`projectId`: string, `locationId`: string, `instanceId`: string, `databaseProjectInstanceUpdate`: [DatabaseProjectInstanceUpdate](../interfaces/_api_.databaseprojectinstanceupdate.md), `options?`: any): Promise\<AxiosResponse\<[Database](../interfaces/_api_.database.md)>>
 
-*Defined in api.ts:20407*
+*Defined in api.ts:20401*
 
 Returns modified instance
 

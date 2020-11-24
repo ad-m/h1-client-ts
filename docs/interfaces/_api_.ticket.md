@@ -32,7 +32,7 @@
 
 • `Optional` **createdBy**: string
 
-*Defined in api.ts:6774*
+*Defined in api.ts:6768*
 
 **`memberof`** Ticket
 
@@ -42,7 +42,7 @@ ___
 
 • `Optional` **createdOn**: string
 
-*Defined in api.ts:6768*
+*Defined in api.ts:6762*
 
 **`memberof`** Ticket
 
@@ -52,7 +52,7 @@ ___
 
 • `Optional` **id**: string
 
-*Defined in api.ts:6738*
+*Defined in api.ts:6732*
 
 **`memberof`** Ticket
 
@@ -62,7 +62,7 @@ ___
 
 • `Optional` **modifiedBy**: string
 
-*Defined in api.ts:6786*
+*Defined in api.ts:6780*
 
 **`memberof`** Ticket
 
@@ -72,7 +72,7 @@ ___
 
 • `Optional` **modifiedOn**: string
 
-*Defined in api.ts:6780*
+*Defined in api.ts:6774*
 
 **`memberof`** Ticket
 
@@ -82,7 +82,7 @@ ___
 
 • `Optional` **project**: string
 
-*Defined in api.ts:6762*
+*Defined in api.ts:6756*
 
 **`memberof`** Ticket
 
@@ -92,7 +92,7 @@ ___
 
 • `Optional` **state**: [TicketStateEnum](../enums/_api_.ticketstateenum.md)
 
-*Defined in api.ts:6750*
+*Defined in api.ts:6744*
 
 **`memberof`** Ticket
 
@@ -102,7 +102,7 @@ ___
 
 • `Optional` **subject**: string
 
-*Defined in api.ts:6756*
+*Defined in api.ts:6750*
 
 **`memberof`** Ticket
 
@@ -112,6 +112,6 @@ ___
 
 • `Optional` **type**: string
 
-*Defined in api.ts:6744*
+*Defined in api.ts:6738*
 
 **`memberof`** Ticket

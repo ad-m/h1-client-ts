@@ -5345,12 +5345,6 @@ export interface RecoveryProjectBackupCreate {
      * @type {string}
      * @memberof RecoveryProjectBackupCreate
      */
-    service: string;
-    /**
-     * 
-     * @type {string}
-     * @memberof RecoveryProjectBackupCreate
-     */
     source?: string;
     /**
      * 
@@ -56292,6 +56286,199 @@ export const RecoveryProjectBackupApiAxiosParamCreator = function (configuration
             };
         },
         /**
+         * Get recovery/backup.metric
+         * @summary Get recovery/backup.metric
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {string} metricId metricId
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        recoveryProjectBackupMetricGet: async (projectId: string, locationId: string, backupId: string, metricId: string, options: any = {}): Promise<RequestArgs> => {
+            // verify required parameter 'projectId' is not null or undefined
+            if (projectId === null || projectId === undefined) {
+                throw new RequiredError('projectId','Required parameter projectId was null or undefined when calling recoveryProjectBackupMetricGet.');
+            }
+            // verify required parameter 'locationId' is not null or undefined
+            if (locationId === null || locationId === undefined) {
+                throw new RequiredError('locationId','Required parameter locationId was null or undefined when calling recoveryProjectBackupMetricGet.');
+            }
+            // verify required parameter 'backupId' is not null or undefined
+            if (backupId === null || backupId === undefined) {
+                throw new RequiredError('backupId','Required parameter backupId was null or undefined when calling recoveryProjectBackupMetricGet.');
+            }
+            // verify required parameter 'metricId' is not null or undefined
+            if (metricId === null || metricId === undefined) {
+                throw new RequiredError('metricId','Required parameter metricId was null or undefined when calling recoveryProjectBackupMetricGet.');
+            }
+            const localVarPath = `/recovery/{locationId}/project/{projectId}/backup/{backupId}/metric/{metricId}`
+                .replace(`{${"projectId"}}`, encodeURIComponent(String(projectId)))
+                .replace(`{${"locationId"}}`, encodeURIComponent(String(locationId)))
+                .replace(`{${"backupId"}}`, encodeURIComponent(String(backupId)))
+                .replace(`{${"metricId"}}`, encodeURIComponent(String(metricId)));
+            const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+            const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            // authentication BearerAuth required
+            // http bearer authentication required
+            if (configuration && configuration.accessToken) {
+                const accessToken = typeof configuration.accessToken === 'function'
+                    ? configuration.accessToken()
+                    : configuration.accessToken;
+                localVarHeaderParameter["Authorization"] = "Bearer " + accessToken;
+            }
+
+
+    
+            localVarUrlObj.query = {...localVarUrlObj.query, ...localVarQueryParameter, ...options.query};
+            // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+            delete localVarUrlObj.search;
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: globalImportUrl.format(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
+         * List recovery/backup.metric
+         * @summary List recovery/backup.metric
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        recoveryProjectBackupMetricList: async (projectId: string, locationId: string, backupId: string, options: any = {}): Promise<RequestArgs> => {
+            // verify required parameter 'projectId' is not null or undefined
+            if (projectId === null || projectId === undefined) {
+                throw new RequiredError('projectId','Required parameter projectId was null or undefined when calling recoveryProjectBackupMetricList.');
+            }
+            // verify required parameter 'locationId' is not null or undefined
+            if (locationId === null || locationId === undefined) {
+                throw new RequiredError('locationId','Required parameter locationId was null or undefined when calling recoveryProjectBackupMetricList.');
+            }
+            // verify required parameter 'backupId' is not null or undefined
+            if (backupId === null || backupId === undefined) {
+                throw new RequiredError('backupId','Required parameter backupId was null or undefined when calling recoveryProjectBackupMetricList.');
+            }
+            const localVarPath = `/recovery/{locationId}/project/{projectId}/backup/{backupId}/metric`
+                .replace(`{${"projectId"}}`, encodeURIComponent(String(projectId)))
+                .replace(`{${"locationId"}}`, encodeURIComponent(String(locationId)))
+                .replace(`{${"backupId"}}`, encodeURIComponent(String(backupId)));
+            const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+            const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            // authentication BearerAuth required
+            // http bearer authentication required
+            if (configuration && configuration.accessToken) {
+                const accessToken = typeof configuration.accessToken === 'function'
+                    ? configuration.accessToken()
+                    : configuration.accessToken;
+                localVarHeaderParameter["Authorization"] = "Bearer " + accessToken;
+            }
+
+
+    
+            localVarUrlObj.query = {...localVarUrlObj.query, ...localVarQueryParameter, ...options.query};
+            // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+            delete localVarUrlObj.search;
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: globalImportUrl.format(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
+         * List recovery/backup.point
+         * @summary List recovery/backup.point
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {string} metricId metricId
+         * @param {string} [interval] interval
+         * @param {string} [timespan] timespan
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        recoveryProjectBackupMetricPointList: async (projectId: string, locationId: string, backupId: string, metricId: string, interval?: string, timespan?: string, options: any = {}): Promise<RequestArgs> => {
+            // verify required parameter 'projectId' is not null or undefined
+            if (projectId === null || projectId === undefined) {
+                throw new RequiredError('projectId','Required parameter projectId was null or undefined when calling recoveryProjectBackupMetricPointList.');
+            }
+            // verify required parameter 'locationId' is not null or undefined
+            if (locationId === null || locationId === undefined) {
+                throw new RequiredError('locationId','Required parameter locationId was null or undefined when calling recoveryProjectBackupMetricPointList.');
+            }
+            // verify required parameter 'backupId' is not null or undefined
+            if (backupId === null || backupId === undefined) {
+                throw new RequiredError('backupId','Required parameter backupId was null or undefined when calling recoveryProjectBackupMetricPointList.');
+            }
+            // verify required parameter 'metricId' is not null or undefined
+            if (metricId === null || metricId === undefined) {
+                throw new RequiredError('metricId','Required parameter metricId was null or undefined when calling recoveryProjectBackupMetricPointList.');
+            }
+            const localVarPath = `/recovery/{locationId}/project/{projectId}/backup/{backupId}/metric/{metricId}/point`
+                .replace(`{${"projectId"}}`, encodeURIComponent(String(projectId)))
+                .replace(`{${"locationId"}}`, encodeURIComponent(String(locationId)))
+                .replace(`{${"backupId"}}`, encodeURIComponent(String(backupId)))
+                .replace(`{${"metricId"}}`, encodeURIComponent(String(metricId)));
+            const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+            const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            // authentication BearerAuth required
+            // http bearer authentication required
+            if (configuration && configuration.accessToken) {
+                const accessToken = typeof configuration.accessToken === 'function'
+                    ? configuration.accessToken()
+                    : configuration.accessToken;
+                localVarHeaderParameter["Authorization"] = "Bearer " + accessToken;
+            }
+
+            if (interval !== undefined) {
+                localVarQueryParameter['interval'] = interval;
+            }
+
+            if (timespan !== undefined) {
+                localVarQueryParameter['timespan'] = timespan;
+            }
+
+
+    
+            localVarUrlObj.query = {...localVarUrlObj.query, ...localVarQueryParameter, ...options.query};
+            // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+            delete localVarUrlObj.search;
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: globalImportUrl.format(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
          * Get recovery/backup.service
          * @summary Get recovery/backup.service
          * @param {string} projectId Project Id
@@ -56905,6 +57092,58 @@ export const RecoveryProjectBackupApiFp = function(configuration?: Configuration
             };
         },
         /**
+         * Get recovery/backup.metric
+         * @summary Get recovery/backup.metric
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {string} metricId metricId
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async recoveryProjectBackupMetricGet(projectId: string, locationId: string, backupId: string, metricId: string, options?: any): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Metric>> {
+            const localVarAxiosArgs = await RecoveryProjectBackupApiAxiosParamCreator(configuration).recoveryProjectBackupMetricGet(projectId, locationId, backupId, metricId, options);
+            return (axios: AxiosInstance = globalAxios, basePath: string = BASE_PATH) => {
+                const axiosRequestArgs = {...localVarAxiosArgs.options, url: basePath + localVarAxiosArgs.url};
+                return axios.request(axiosRequestArgs);
+            };
+        },
+        /**
+         * List recovery/backup.metric
+         * @summary List recovery/backup.metric
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async recoveryProjectBackupMetricList(projectId: string, locationId: string, backupId: string, options?: any): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Array<Metric>>> {
+            const localVarAxiosArgs = await RecoveryProjectBackupApiAxiosParamCreator(configuration).recoveryProjectBackupMetricList(projectId, locationId, backupId, options);
+            return (axios: AxiosInstance = globalAxios, basePath: string = BASE_PATH) => {
+                const axiosRequestArgs = {...localVarAxiosArgs.options, url: basePath + localVarAxiosArgs.url};
+                return axios.request(axiosRequestArgs);
+            };
+        },
+        /**
+         * List recovery/backup.point
+         * @summary List recovery/backup.point
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {string} metricId metricId
+         * @param {string} [interval] interval
+         * @param {string} [timespan] timespan
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async recoveryProjectBackupMetricPointList(projectId: string, locationId: string, backupId: string, metricId: string, interval?: string, timespan?: string, options?: any): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<Array<Point>>> {
+            const localVarAxiosArgs = await RecoveryProjectBackupApiAxiosParamCreator(configuration).recoveryProjectBackupMetricPointList(projectId, locationId, backupId, metricId, interval, timespan, options);
+            return (axios: AxiosInstance = globalAxios, basePath: string = BASE_PATH) => {
+                const axiosRequestArgs = {...localVarAxiosArgs.options, url: basePath + localVarAxiosArgs.url};
+                return axios.request(axiosRequestArgs);
+            };
+        },
+        /**
          * Get recovery/backup.service
          * @summary Get recovery/backup.service
          * @param {string} projectId Project Id
@@ -57127,6 +57366,46 @@ export const RecoveryProjectBackupApiFactory = function (configuration?: Configu
             return RecoveryProjectBackupApiFp(configuration).recoveryProjectBackupList(projectId, locationId, name, source, tagValue, tagKey, options).then((request) => request(axios, basePath));
         },
         /**
+         * Get recovery/backup.metric
+         * @summary Get recovery/backup.metric
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {string} metricId metricId
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        recoveryProjectBackupMetricGet(projectId: string, locationId: string, backupId: string, metricId: string, options?: any): AxiosPromise<Metric> {
+            return RecoveryProjectBackupApiFp(configuration).recoveryProjectBackupMetricGet(projectId, locationId, backupId, metricId, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * List recovery/backup.metric
+         * @summary List recovery/backup.metric
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        recoveryProjectBackupMetricList(projectId: string, locationId: string, backupId: string, options?: any): AxiosPromise<Array<Metric>> {
+            return RecoveryProjectBackupApiFp(configuration).recoveryProjectBackupMetricList(projectId, locationId, backupId, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * List recovery/backup.point
+         * @summary List recovery/backup.point
+         * @param {string} projectId Project Id
+         * @param {string} locationId Location Id
+         * @param {string} backupId Backup Id
+         * @param {string} metricId metricId
+         * @param {string} [interval] interval
+         * @param {string} [timespan] timespan
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        recoveryProjectBackupMetricPointList(projectId: string, locationId: string, backupId: string, metricId: string, interval?: string, timespan?: string, options?: any): AxiosPromise<Array<Point>> {
+            return RecoveryProjectBackupApiFp(configuration).recoveryProjectBackupMetricPointList(projectId, locationId, backupId, metricId, interval, timespan, options).then((request) => request(axios, basePath));
+        },
+        /**
          * Get recovery/backup.service
          * @summary Get recovery/backup.service
          * @param {string} projectId Project Id
@@ -57327,6 +57606,52 @@ export class RecoveryProjectBackupApi extends BaseAPI {
      */
     public recoveryProjectBackupList(projectId: string, locationId: string, name?: string, source?: string, tagValue?: string, tagKey?: string, options?: any) {
         return RecoveryProjectBackupApiFp(this.configuration).recoveryProjectBackupList(projectId, locationId, name, source, tagValue, tagKey, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * Get recovery/backup.metric
+     * @summary Get recovery/backup.metric
+     * @param {string} projectId Project Id
+     * @param {string} locationId Location Id
+     * @param {string} backupId Backup Id
+     * @param {string} metricId metricId
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof RecoveryProjectBackupApi
+     */
+    public recoveryProjectBackupMetricGet(projectId: string, locationId: string, backupId: string, metricId: string, options?: any) {
+        return RecoveryProjectBackupApiFp(this.configuration).recoveryProjectBackupMetricGet(projectId, locationId, backupId, metricId, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * List recovery/backup.metric
+     * @summary List recovery/backup.metric
+     * @param {string} projectId Project Id
+     * @param {string} locationId Location Id
+     * @param {string} backupId Backup Id
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof RecoveryProjectBackupApi
+     */
+    public recoveryProjectBackupMetricList(projectId: string, locationId: string, backupId: string, options?: any) {
+        return RecoveryProjectBackupApiFp(this.configuration).recoveryProjectBackupMetricList(projectId, locationId, backupId, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * List recovery/backup.point
+     * @summary List recovery/backup.point
+     * @param {string} projectId Project Id
+     * @param {string} locationId Location Id
+     * @param {string} backupId Backup Id
+     * @param {string} metricId metricId
+     * @param {string} [interval] interval
+     * @param {string} [timespan] timespan
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof RecoveryProjectBackupApi
+     */
+    public recoveryProjectBackupMetricPointList(projectId: string, locationId: string, backupId: string, metricId: string, interval?: string, timespan?: string, options?: any) {
+        return RecoveryProjectBackupApiFp(this.configuration).recoveryProjectBackupMetricPointList(projectId, locationId, backupId, metricId, interval, timespan, options).then((request) => request(this.axios, this.basePath));
     }
 
     /**

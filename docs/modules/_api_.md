@@ -414,7 +414,7 @@
 
 ▸ `Const`**BillingProjectReservationApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:7950*
+*Defined in api.ts:7944*
 
 BillingProjectReservationApi - axios parameter creator
 
@@ -453,7 +453,7 @@ ___
 
 ▸ `Const`**BillingProjectReservationApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:9136*
+*Defined in api.ts:9130*
 
 BillingProjectReservationApi - factory interface
 
@@ -494,7 +494,7 @@ ___
 
 ▸ `Const`**BillingProjectReservationApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:8872*
+*Defined in api.ts:8866*
 
 BillingProjectReservationApi - functional programming interface
 
@@ -533,7 +533,7 @@ ___
 
 ▸ `Const`**BillingProjectServiceApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:9569*
+*Defined in api.ts:9563*
 
 BillingProjectServiceApi - axios parameter creator
 
@@ -558,7 +558,7 @@ ___
 
 ▸ `Const`**BillingProjectServiceApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:9730*
+*Defined in api.ts:9724*
 
 BillingProjectServiceApi - factory interface
 
@@ -585,7 +585,7 @@ ___
 
 ▸ `Const`**BillingProjectServiceApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:9689*
+*Defined in api.ts:9683*
 
 BillingProjectServiceApi - functional programming interface
 
@@ -610,7 +610,7 @@ ___
 
 ▸ `Const`**ComputeProjectReplicaApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:9801*
+*Defined in api.ts:9795*
 
 ComputeProjectReplicaApi - axios parameter creator
 
@@ -646,7 +646,7 @@ ___
 
 ▸ `Const`**ComputeProjectReplicaApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:10836*
+*Defined in api.ts:10830*
 
 ComputeProjectReplicaApi - factory interface
 
@@ -684,7 +684,7 @@ ___
 
 ▸ `Const`**ComputeProjectReplicaApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:10610*
+*Defined in api.ts:10604*
 
 ComputeProjectReplicaApi - functional programming interface
 
@@ -720,7 +720,7 @@ ___
 
 ▸ `Const`**ComputeProjectVmApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:11211*
+*Defined in api.ts:11205*
 
 ComputeProjectVmApi - axios parameter creator
 
@@ -774,7 +774,7 @@ ___
 
 ▸ `Const`**ComputeProjectVmApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:13724*
+*Defined in api.ts:13718*
 
 ComputeProjectVmApi - factory interface
 
@@ -830,7 +830,7 @@ ___
 
 ▸ `Const`**ComputeProjectVmApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:13188*
+*Defined in api.ts:13182*
 
 ComputeProjectVmApi - functional programming interface
 
@@ -884,7 +884,7 @@ ___
 
 ▸ `Const`**ContainerProjectRegistryApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:14611*
+*Defined in api.ts:14605*
 
 ContainerProjectRegistryApi - axios parameter creator
 
@@ -938,7 +938,7 @@ ___
 
 ▸ `Const`**ContainerProjectRegistryApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:17117*
+*Defined in api.ts:17111*
 
 ContainerProjectRegistryApi - factory interface
 
@@ -994,7 +994,7 @@ ___
 
 ▸ `Const`**ContainerProjectRegistryApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:16582*
+*Defined in api.ts:16576*
 
 ContainerProjectRegistryApi - functional programming interface
 
@@ -1048,7 +1048,7 @@ ___
 
 ▸ `Const`**DatabaseProjectInstanceApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:18002*
+*Defined in api.ts:17996*
 
 DatabaseProjectInstanceApi - axios parameter creator
 
@@ -1093,7 +1093,7 @@ ___
 
 ▸ `Const`**DatabaseProjectInstanceApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:19785*
+*Defined in api.ts:19779*
 
 DatabaseProjectInstanceApi - factory interface
 
@@ -1140,7 +1140,7 @@ ___
 
 ▸ `Const`**DatabaseProjectInstanceApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:19403*
+*Defined in api.ts:19397*
 
 DatabaseProjectInstanceApi - functional programming interface
 
@@ -1185,7 +1185,7 @@ ___
 
 ▸ `Const`**DnsProjectZoneApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:20418*
+*Defined in api.ts:20412*
 
 DnsProjectZoneApi - axios parameter creator
 
@@ -1232,7 +1232,7 @@ ___
 
 ▸ `Const`**DnsProjectZoneApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:22388*
+*Defined in api.ts:22382*
 
 DnsProjectZoneApi - factory interface
 
@@ -1281,7 +1281,7 @@ ___
 
 ▸ `Const`**DnsProjectZoneApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:21969*
+*Defined in api.ts:21963*
 
 DnsProjectZoneApi - functional programming interface
 
@@ -1328,7 +1328,7 @@ ___
 
 ▸ `Const`**IamOrganisationApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:23083*
+*Defined in api.ts:23077*
 
 IamOrganisationApi - axios parameter creator
 
@@ -1382,7 +1382,7 @@ ___
 
 ▸ `Const`**IamOrganisationApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:25161*
+*Defined in api.ts:25155*
 
 IamOrganisationApi - factory interface
 
@@ -1438,7 +1438,7 @@ ___
 
 ▸ `Const`**IamOrganisationApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:24687*
+*Defined in api.ts:24681*
 
 IamOrganisationApi - functional programming interface
 
@@ -1492,7 +1492,7 @@ ___
 
 ▸ `Const`**IamOrganisationPolicyApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:25924*
+*Defined in api.ts:25918*
 
 IamOrganisationPolicyApi - axios parameter creator
 
@@ -1533,7 +1533,7 @@ ___
 
 ▸ `Const`**IamOrganisationPolicyApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:27250*
+*Defined in api.ts:27244*
 
 IamOrganisationPolicyApi - factory interface
 
@@ -1576,7 +1576,7 @@ ___
 
 ▸ `Const`**IamOrganisationPolicyApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:26955*
+*Defined in api.ts:26949*
 
 IamOrganisationPolicyApi - functional programming interface
 
@@ -1617,7 +1617,7 @@ ___
 
 ▸ `Const`**IamOrganisationRoleApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:27733*
+*Defined in api.ts:27727*
 
 IamOrganisationRoleApi - axios parameter creator
 
@@ -1659,7 +1659,7 @@ ___
 
 ▸ `Const`**IamOrganisationRoleApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:29129*
+*Defined in api.ts:29123*
 
 IamOrganisationRoleApi - factory interface
 
@@ -1703,7 +1703,7 @@ ___
 
 ▸ `Const`**IamOrganisationRoleApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:28819*
+*Defined in api.ts:28813*
 
 IamOrganisationRoleApi - functional programming interface
 
@@ -1745,7 +1745,7 @@ ___
 
 ▸ `Const`**IamProjectApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:29636*
+*Defined in api.ts:29630*
 
 IamProjectApi - axios parameter creator
 
@@ -1807,7 +1807,7 @@ ___
 
 ▸ `Const`**IamProjectApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:32257*
+*Defined in api.ts:32251*
 
 IamProjectApi - factory interface
 
@@ -1871,7 +1871,7 @@ ___
 
 ▸ `Const`**IamProjectApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:31662*
+*Defined in api.ts:31656*
 
 IamProjectApi - functional programming interface
 
@@ -1933,7 +1933,7 @@ ___
 
 ▸ `Const`**IamProjectPolicyApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:33214*
+*Defined in api.ts:33208*
 
 IamProjectPolicyApi - axios parameter creator
 
@@ -1974,7 +1974,7 @@ ___
 
 ▸ `Const`**IamProjectPolicyApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:34540*
+*Defined in api.ts:34534*
 
 IamProjectPolicyApi - factory interface
 
@@ -2017,7 +2017,7 @@ ___
 
 ▸ `Const`**IamProjectPolicyApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:34245*
+*Defined in api.ts:34239*
 
 IamProjectPolicyApi - functional programming interface
 
@@ -2058,7 +2058,7 @@ ___
 
 ▸ `Const`**IamProjectRoleApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:35023*
+*Defined in api.ts:35017*
 
 IamProjectRoleApi - axios parameter creator
 
@@ -2100,7 +2100,7 @@ ___
 
 ▸ `Const`**IamProjectRoleApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:36419*
+*Defined in api.ts:36413*
 
 IamProjectRoleApi - factory interface
 
@@ -2144,7 +2144,7 @@ ___
 
 ▸ `Const`**IamProjectRoleApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:36109*
+*Defined in api.ts:36103*
 
 IamProjectRoleApi - functional programming interface
 
@@ -2186,7 +2186,7 @@ ___
 
 ▸ `Const`**IamProjectSaApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:36926*
+*Defined in api.ts:36920*
 
 IamProjectSaApi - axios parameter creator
 
@@ -2228,7 +2228,7 @@ ___
 
 ▸ `Const`**IamProjectSaApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:38329*
+*Defined in api.ts:38323*
 
 IamProjectSaApi - factory interface
 
@@ -2272,7 +2272,7 @@ ___
 
 ▸ `Const`**IamProjectSaApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:38018*
+*Defined in api.ts:38012*
 
 IamProjectSaApi - functional programming interface
 
@@ -2314,7 +2314,7 @@ ___
 
 ▸ `Const`**IamUserApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:38838*
+*Defined in api.ts:38832*
 
 IamUserApi - axios parameter creator
 
@@ -2349,7 +2349,7 @@ ___
 
 ▸ `Const`**IamUserApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:39636*
+*Defined in api.ts:39630*
 
 IamUserApi - factory interface
 
@@ -2386,7 +2386,7 @@ ___
 
 ▸ `Const`**IamUserApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:39450*
+*Defined in api.ts:39444*
 
 IamUserApi - functional programming interface
 
@@ -2421,7 +2421,7 @@ ___
 
 ▸ `Const`**InsightProjectJournalApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:39937*
+*Defined in api.ts:39931*
 
 InsightProjectJournalApi - axios parameter creator
 
@@ -2465,7 +2465,7 @@ ___
 
 ▸ `Const`**InsightProjectJournalApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:41669*
+*Defined in api.ts:41663*
 
 InsightProjectJournalApi - factory interface
 
@@ -2511,7 +2511,7 @@ ___
 
 ▸ `Const`**InsightProjectJournalApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:41300*
+*Defined in api.ts:41294*
 
 InsightProjectJournalApi - functional programming interface
 
@@ -2555,7 +2555,7 @@ ___
 
 ▸ `Const`**NetworkingProjectFirewallApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:42282*
+*Defined in api.ts:42276*
 
 NetworkingProjectFirewallApi - axios parameter creator
 
@@ -2603,7 +2603,7 @@ ___
 
 ▸ `Const`**NetworkingProjectFirewallApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:44299*
+*Defined in api.ts:44293*
 
 NetworkingProjectFirewallApi - factory interface
 
@@ -2653,7 +2653,7 @@ ___
 
 ▸ `Const`**NetworkingProjectFirewallApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:43868*
+*Defined in api.ts:43862*
 
 NetworkingProjectFirewallApi - functional programming interface
 
@@ -2701,7 +2701,7 @@ ___
 
 ▸ `Const`**NetworkingProjectIpApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:45012*
+*Defined in api.ts:45006*
 
 NetworkingProjectIpApi - axios parameter creator
 
@@ -2742,7 +2742,7 @@ ___
 
 ▸ `Const`**NetworkingProjectIpApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:46484*
+*Defined in api.ts:46478*
 
 NetworkingProjectIpApi - factory interface
 
@@ -2785,7 +2785,7 @@ ___
 
 ▸ `Const`**NetworkingProjectIpApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:46168*
+*Defined in api.ts:46162*
 
 NetworkingProjectIpApi - functional programming interface
 
@@ -2826,7 +2826,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetadpApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:47009*
+*Defined in api.ts:47003*
 
 NetworkingProjectNetadpApi - axios parameter creator
 
@@ -2866,7 +2866,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetadpApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:48396*
+*Defined in api.ts:48390*
 
 NetworkingProjectNetadpApi - factory interface
 
@@ -2908,7 +2908,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetadpApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:48097*
+*Defined in api.ts:48091*
 
 NetworkingProjectNetadpApi - functional programming interface
 
@@ -2948,7 +2948,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetgwApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:48893*
+*Defined in api.ts:48887*
 
 NetworkingProjectNetgwApi - axios parameter creator
 
@@ -2987,7 +2987,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetgwApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:50191*
+*Defined in api.ts:50185*
 
 NetworkingProjectNetgwApi - factory interface
 
@@ -3028,7 +3028,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetgwApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:49911*
+*Defined in api.ts:49905*
 
 NetworkingProjectNetgwApi - functional programming interface
 
@@ -3067,7 +3067,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetworkApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:50656*
+*Defined in api.ts:50650*
 
 NetworkingProjectNetworkApi - axios parameter creator
 
@@ -3104,7 +3104,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetworkApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:51786*
+*Defined in api.ts:51780*
 
 NetworkingProjectNetworkApi - factory interface
 
@@ -3143,7 +3143,7 @@ ___
 
 ▸ `Const`**NetworkingProjectNetworkApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:51541*
+*Defined in api.ts:51535*
 
 NetworkingProjectNetworkApi - functional programming interface
 
@@ -3180,7 +3180,7 @@ ___
 
 ▸ `Const`**ProviderProjectAgentApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:52193*
+*Defined in api.ts:52187*
 
 ProviderProjectAgentApi - axios parameter creator
 
@@ -3237,7 +3237,7 @@ ___
 
 ▸ `Const`**ProviderProjectAgentApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:54941*
+*Defined in api.ts:54935*
 
 ProviderProjectAgentApi - factory interface
 
@@ -3296,7 +3296,7 @@ ___
 
 ▸ `Const`**ProviderProjectAgentApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:54354*
+*Defined in api.ts:54348*
 
 ProviderProjectAgentApi - functional programming interface
 
@@ -3353,7 +3353,7 @@ ___
 
 ▸ `Const`**RecoveryProjectBackupApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:55912*
+*Defined in api.ts:55906*
 
 RecoveryProjectBackupApi - axios parameter creator
 
@@ -3375,6 +3375,9 @@ Name | Type | Description |
 `recoveryProjectBackupEventList` | (projectId: string,locationId: string,backupId: string,$limit?: number,$skip?: number,options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | List recovery/backup.event  **`summary`** List recovery/backup.event  **`throws`** {RequiredError}  |
 `recoveryProjectBackupGet` | (projectId: string,locationId: string,backupId: string,options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | Returns a single backup  **`summary`** Get recovery/backup  **`throws`** {RequiredError}  |
 `recoveryProjectBackupList` | (projectId: string,locationId: string,name?: string,source?: string,tagValue?: string,tagKey?: string,options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | List backup  **`summary`** List recovery/backup  **`throws`** {RequiredError}  |
+`recoveryProjectBackupMetricGet` | (projectId: string,locationId: string,backupId: string,metricId: string,options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | Get recovery/backup.metric  **`summary`** Get recovery/backup.metric  **`throws`** {RequiredError}  |
+`recoveryProjectBackupMetricList` | (projectId: string,locationId: string,backupId: string,options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | List recovery/backup.metric  **`summary`** List recovery/backup.metric  **`throws`** {RequiredError}  |
+`recoveryProjectBackupMetricPointList` | (projectId: string,locationId: string,backupId: string,metricId: string,interval?: string,timespan?: string,options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | List recovery/backup.point  **`summary`** List recovery/backup.point  **`throws`** {RequiredError}  |
 `recoveryProjectBackupServiceGet` | (projectId: string,locationId: string,backupId: string,serviceId: string,options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | Get recovery/backup.service  **`summary`** Get recovery/backup.service  **`throws`** {RequiredError}  |
 `recoveryProjectBackupServiceList` | (projectId: string,locationId: string,backupId: string,options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | List recovery/backup.service  **`summary`** List recovery/backup.service  **`throws`** {RequiredError}  |
 `recoveryProjectBackupTagCreate` | (projectId: string,locationId: string,backupId: string,tag: [Tag](../interfaces/_api_.tag.md),options: any) => Promise\<[RequestArgs](../interfaces/_base_.requestargs.md)> | Create recovery/backup.tag  **`summary`** Create recovery/backup.tag  **`throws`** {RequiredError}  |
@@ -3390,7 +3393,7 @@ ___
 
 ▸ `Const`**RecoveryProjectBackupApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:57048*
+*Defined in api.ts:57287*
 
 RecoveryProjectBackupApi - factory interface
 
@@ -3414,6 +3417,9 @@ Name | Type |
 `recoveryProjectBackupEventList` | (projectId: string,locationId: string,backupId: string,$limit?: number,$skip?: number,options?: any) => AxiosPromise\<Array\<[Event](../interfaces/_api_.event.md)>> |
 `recoveryProjectBackupGet` | (projectId: string,locationId: string,backupId: string,options?: any) => AxiosPromise\<[Backup](../interfaces/_api_.backup.md)> |
 `recoveryProjectBackupList` | (projectId: string,locationId: string,name?: string,source?: string,tagValue?: string,tagKey?: string,options?: any) => AxiosPromise\<Array\<[Backup](../interfaces/_api_.backup.md)>> |
+`recoveryProjectBackupMetricGet` | (projectId: string,locationId: string,backupId: string,metricId: string,options?: any) => AxiosPromise\<[Metric](../interfaces/_api_.metric.md)> |
+`recoveryProjectBackupMetricList` | (projectId: string,locationId: string,backupId: string,options?: any) => AxiosPromise\<Array\<[Metric](../interfaces/_api_.metric.md)>> |
+`recoveryProjectBackupMetricPointList` | (projectId: string,locationId: string,backupId: string,metricId: string,interval?: string,timespan?: string,options?: any) => AxiosPromise\<Array\<[Point](../interfaces/_api_.point.md)>> |
 `recoveryProjectBackupServiceGet` | (projectId: string,locationId: string,backupId: string,serviceId: string,options?: any) => AxiosPromise\<[ResourceService](../interfaces/_api_.resourceservice.md)> |
 `recoveryProjectBackupServiceList` | (projectId: string,locationId: string,backupId: string,options?: any) => AxiosPromise\<Array\<[ResourceService](../interfaces/_api_.resourceservice.md)>> |
 `recoveryProjectBackupTagCreate` | (projectId: string,locationId: string,backupId: string,tag: [Tag](../interfaces/_api_.tag.md),options?: any) => AxiosPromise\<[Tag](../interfaces/_api_.tag.md)> |
@@ -3429,7 +3435,7 @@ ___
 
 ▸ `Const`**RecoveryProjectBackupApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:56802*
+*Defined in api.ts:56989*
 
 RecoveryProjectBackupApi - functional programming interface
 
@@ -3451,6 +3457,9 @@ Name | Type |
 `recoveryProjectBackupEventList` | (projectId: string,locationId: string,backupId: string,$limit?: number,$skip?: number,options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<Array\<[Event](../interfaces/_api_.event.md)>>> |
 `recoveryProjectBackupGet` | (projectId: string,locationId: string,backupId: string,options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<[Backup](../interfaces/_api_.backup.md)>> |
 `recoveryProjectBackupList` | (projectId: string,locationId: string,name?: string,source?: string,tagValue?: string,tagKey?: string,options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<Array\<[Backup](../interfaces/_api_.backup.md)>>> |
+`recoveryProjectBackupMetricGet` | (projectId: string,locationId: string,backupId: string,metricId: string,options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<[Metric](../interfaces/_api_.metric.md)>> |
+`recoveryProjectBackupMetricList` | (projectId: string,locationId: string,backupId: string,options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<Array\<[Metric](../interfaces/_api_.metric.md)>>> |
+`recoveryProjectBackupMetricPointList` | (projectId: string,locationId: string,backupId: string,metricId: string,interval?: string,timespan?: string,options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<Array\<[Point](../interfaces/_api_.point.md)>>> |
 `recoveryProjectBackupServiceGet` | (projectId: string,locationId: string,backupId: string,serviceId: string,options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<[ResourceService](../interfaces/_api_.resourceservice.md)>> |
 `recoveryProjectBackupServiceList` | (projectId: string,locationId: string,backupId: string,options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<Array\<[ResourceService](../interfaces/_api_.resourceservice.md)>>> |
 `recoveryProjectBackupTagCreate` | (projectId: string,locationId: string,backupId: string,tag: [Tag](../interfaces/_api_.tag.md),options?: any) => Promise\<(axios?: AxiosInstance,basePath?: string) => AxiosPromise\<[Tag](../interfaces/_api_.tag.md)>> |
@@ -3466,7 +3475,7 @@ ___
 
 ▸ `Const`**StorageProjectDiskApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:57457*
+*Defined in api.ts:57782*
 
 StorageProjectDiskApi - axios parameter creator
 
@@ -3510,7 +3519,7 @@ ___
 
 ▸ `Const`**StorageProjectDiskApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:59174*
+*Defined in api.ts:59499*
 
 StorageProjectDiskApi - factory interface
 
@@ -3556,7 +3565,7 @@ ___
 
 ▸ `Const`**StorageProjectDiskApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:58806*
+*Defined in api.ts:59131*
 
 StorageProjectDiskApi - functional programming interface
 
@@ -3600,7 +3609,7 @@ ___
 
 ▸ `Const`**StorageProjectImageApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:59785*
+*Defined in api.ts:60110*
 
 StorageProjectImageApi - axios parameter creator
 
@@ -3639,7 +3648,7 @@ ___
 
 ▸ `Const`**StorageProjectImageApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:61077*
+*Defined in api.ts:61402*
 
 StorageProjectImageApi - factory interface
 
@@ -3680,7 +3689,7 @@ ___
 
 ▸ `Const`**StorageProjectImageApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:60798*
+*Defined in api.ts:61123*
 
 StorageProjectImageApi - functional programming interface
 
@@ -3719,7 +3728,7 @@ ___
 
 ▸ `Const`**StorageProjectIsoApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:61540*
+*Defined in api.ts:61865*
 
 StorageProjectIsoApi - axios parameter creator
 
@@ -3758,7 +3767,7 @@ ___
 
 ▸ `Const`**StorageProjectIsoApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:62848*
+*Defined in api.ts:63173*
 
 StorageProjectIsoApi - factory interface
 
@@ -3799,7 +3808,7 @@ ___
 
 ▸ `Const`**StorageProjectIsoApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:62567*
+*Defined in api.ts:62892*
 
 StorageProjectIsoApi - functional programming interface
 
@@ -3838,7 +3847,7 @@ ___
 
 ▸ `Const`**StorageProjectVaultApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:63315*
+*Defined in api.ts:63640*
 
 StorageProjectVaultApi - axios parameter creator
 
@@ -3887,7 +3896,7 @@ ___
 
 ▸ `Const`**StorageProjectVaultApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:65424*
+*Defined in api.ts:65749*
 
 StorageProjectVaultApi - factory interface
 
@@ -3938,7 +3947,7 @@ ___
 
 ▸ `Const`**StorageProjectVaultApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:64974*
+*Defined in api.ts:65299*
 
 StorageProjectVaultApi - functional programming interface
 
@@ -3987,7 +3996,7 @@ ___
 
 ▸ `Const`**SupportProjectTicketApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:66169*
+*Defined in api.ts:66494*
 
 SupportProjectTicketApi - axios parameter creator
 
@@ -4017,7 +4026,7 @@ ___
 
 ▸ `Const`**SupportProjectTicketApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:66680*
+*Defined in api.ts:67005*
 
 SupportProjectTicketApi - factory interface
 
@@ -4049,7 +4058,7 @@ ___
 
 ▸ `Const`**SupportProjectTicketApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:66562*
+*Defined in api.ts:66887*
 
 SupportProjectTicketApi - functional programming interface
 
@@ -4079,7 +4088,7 @@ ___
 
 ▸ `Const`**VmhostProjectInstanceApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:66875*
+*Defined in api.ts:67200*
 
 VmhostProjectInstanceApi - axios parameter creator
 
@@ -4113,7 +4122,7 @@ ___
 
 ▸ `Const`**VmhostProjectInstanceApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:67755*
+*Defined in api.ts:68080*
 
 VmhostProjectInstanceApi - factory interface
 
@@ -4149,7 +4158,7 @@ ___
 
 ▸ `Const`**VmhostProjectInstanceApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:67562*
+*Defined in api.ts:67887*
 
 VmhostProjectInstanceApi - functional programming interface
 
@@ -4183,7 +4192,7 @@ ___
 
 ▸ `Const`**WebsiteProjectInstanceApiAxiosParamCreator**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:68076*
+*Defined in api.ts:68401*
 
 WebsiteProjectInstanceApi - axios parameter creator
 
@@ -4256,7 +4265,7 @@ ___
 
 ▸ `Const`**WebsiteProjectInstanceApiFactory**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md), `basePath?`: string, `axios?`: AxiosInstance): object
 
-*Defined in api.ts:72086*
+*Defined in api.ts:72411*
 
 WebsiteProjectInstanceApi - factory interface
 
@@ -4331,7 +4340,7 @@ ___
 
 ▸ `Const`**WebsiteProjectInstanceApiFp**(`configuration?`: [Configuration](../classes/_configuration_.configuration.md)): object
 
-*Defined in api.ts:71232*
+*Defined in api.ts:71557*
 
 WebsiteProjectInstanceApi - functional programming interface
 
